@@ -1,5 +1,4 @@
 
-// KlutterKlearApp.jsx (React component)
 import React from 'react';
 
 const services = [
@@ -17,7 +16,6 @@ const testimonials = [
 export default function KlutterKlearApp() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 font-sans">
-      {/* Header / Hero Section */}
       <header className="bg-green-700 text-white p-8 text-center">
         <h1 className="text-4xl font-bold mb-2">Klutter Klear Junk Removal</h1>
         <p className="text-lg max-w-xl mx-auto mb-6">Fast, Friendly, and Responsible Junk Removal in Your Area</p>
@@ -31,7 +29,6 @@ export default function KlutterKlearApp() {
         </a>
       </header>
 
-      {/* Services Section */}
       <section className="max-w-5xl mx-auto p-8">
         <h2 className="text-3xl font-semibold mb-6 text-center">Our Services</h2>
         <div className="grid md:grid-cols-3 gap-6">
@@ -44,7 +41,6 @@ export default function KlutterKlearApp() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
       <section className="bg-green-100 py-12">
         <h2 className="text-3xl font-semibold mb-6 text-center text-green-900">What Our Customers Say</h2>
         <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-6 px-4">
@@ -57,7 +53,6 @@ export default function KlutterKlearApp() {
         </div>
       </section>
 
-      {/* Contact / Footer Section */}
       <footer className="bg-green-700 text-white p-8 text-center">
         <h2 className="text-2xl font-semibold mb-2">Get In Touch</h2>
         <p>Call or email us to learn more or schedule your pickup.</p>
@@ -75,10 +70,9 @@ export default function KlutterKlearApp() {
             Book Now
           </a>
         </div>
-        <p className="mt-6 text-sm text-green-200">&copy; {new Date().getFullYear()} Klutter Klear. All rights reserved.</p>
+        <p className="mt-6 text-sm text-green-200">&copy; {2025} Klutter Klear. All rights reserved.</p>
       </footer>
 
-      {/* Tidio chatbot snippet */}
       <script src="//code.tidio.co/m7is6tbxbj6g8bpmx9uxos6i7bbbrz4e.js" async></script>
     </div>
   );
